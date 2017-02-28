@@ -1,6 +1,6 @@
 #MagnaBall
 
-MagnaBall is a game concept based on foosball. The traditional spinning players are replaced with magnetic nodes that push or pull the puck. It is written in JavaScript, using the PhysicsJS library and HTML 5.
+MagnaBall is a game concept based on foosball. The traditional spinning players are replaced with magnetic nodes that push or pull the puck. It is written in JavaScript, using the PhysicsJS and EaselJS libraries, and HTML 5.
 
 #Setup
 On game start, the puck is launched from the top-center of the board with a semi-random vector.
@@ -29,3 +29,14 @@ The walls represent the borders of the playing field. If the puck hits a horizon
 
 ##Goals
 Goal objects are placed halfway down the vertical walls of the playfield. If the puck hits the goal, the scoring player's score is incremented.
+
+#Project Timeline
+
+##Day 1
+Set up the basic board, including goal and magnet placement. Build graphics and base object models. Get familiar with EaselJS.
+
+##Day 2
+Set up physics for puck, walls, magnets.
+
+##Day 3
+Set up scoring, scorekeeping, title page
