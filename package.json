@@ -1,0 +1,32 @@
+{
+  "name": "MagnaBall",
+  "version": "1.0.0",
+  "description": "MagnaBall is a game concept based on foosball. The traditional spinning players are replaced with magnetic nodes that push or pull the puck. It is written in JavaScript, using the PhysicsJS and EaselJS libraries, and HTML 5.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOKeeffe/MagnaBall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IOKeeffe/MagnaBall/issues"
+  },
+  "homepage": "https://github.com/IOKeeffe/MagnaBall#readme",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "easeljs": "0.0.0",
+    "physicsjs": "^0.7.0",
+    "webpack": "^2.2.1"
+  }
+}
