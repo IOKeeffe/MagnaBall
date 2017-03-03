@@ -1,0 +1,51 @@
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gameField {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#title-screen {
+  height: 720px;
+  width: 1300px;
+
+}
+
+#player-1-score {
+  color: #5A0202;
+}
+
+#player-2-score {
+  color: #0D254B;
+}
+
+.scoreboard {
+  font-family: 'Bungee Inline', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*font-family: fantasy;*/
+  font-size: 40px;
+
+  p {
+  }
+}
+
+.message-field {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 30px;
+
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Bungee Inline', cursive;
+  margin-bottom: 0;
+}

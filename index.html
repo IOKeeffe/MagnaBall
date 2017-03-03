@@ -3,9 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <canvas id="canvas" width="1300" height="720" style="position: absolute; left: 300px;"></canvas>
-    <script type="text/javascript" src="lib/bundle.js"></script>
+    <div class="content">
+      <div class="title">
+        <h1>MAGNABALL</h1>
+      </div>
+      <div class="gameField">
+        <div class="scoreboard">
+          <h2>Player 1</h2>
+          <p id="player-1-score">0</p>
+        </div>
+        <div id="canvas-bergman">
+          <div id="title-screen"
+            <h2>Welcome to MagnaBall, Asshole!</h2>
+            <button id="one-player-button">1 player</button>
+            <button id="two-player-button">2 players</button>
+          </div>
+          <!-- <canvas id="canvas" width="1300" height="720" ></canvas> -->
+        </div>
+        <div class="scoreboard">
+            <h2>Player 2</h2>
+          <p id="player-2-score">0</p>
+        </div>
+      </div>
+      <div class="message-field">
+        <p>Player 1 scored!</p>
+      </div>
+    </div
   </body>
 </html>
