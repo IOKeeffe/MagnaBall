@@ -93,7 +93,7 @@ h1 {
   font-size: 13px;
   margin: 20px 8px;
   padding: 10px;
-  transition: .75s;
+  transition: .25s;
   transition-timing-function: cubic-bezier(.45,.49,.79,.72);
 }
 
