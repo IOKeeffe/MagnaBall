@@ -1,3 +1,4 @@
+
 .content {
   align-items: center;
   display:flex;
@@ -12,7 +13,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 66.667%;
   width: 100%;
 }
 
@@ -21,16 +21,20 @@
   /*width: calc(66.667% + 40px);*/
 }
 
+label {
+  font-family: 'Bungee Inline', cursive;
+}
+
 #title-screen {
   height: 100%;
   width: 100%;
 }
 
-#player-1-score {
+.first-player-scoreboard {
   color: #5A0202;
 }
 
-#player-2-score {
+.second-player-scoreboard {
   color: #0D254B;
 }
 
@@ -48,6 +52,7 @@
 #message-field {
   font-family: 'Bungee Inline', cursive;
   font-size: 30px;
+  margin-top: auto;
 
 }
 
@@ -55,4 +60,53 @@ h1 {
   font-size: 5vmin;
   font-family: 'Bungee Inline', cursive;
   margin: 0;
+}
+
+#title-screen {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+#title-screen h2 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 3vmin;
+    margin-top: 20px;
+}
+
+#button-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.player-button {
+  background-color: #000000;
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 13px;
+  margin: 20px 8px;
+  padding: 10px;
+  transition: .75s;
+  transition-timing-function: cubic-bezier(.45,.49,.79,.72);
+}
+
+.player-button:hover {
+  border-radius: 100%;
+  margin: 8px;
+  padding: 20px 10px;
+}
+
+
+#one-player-button:hover {
+  background-color: #5A0202;
+}
+#two-player-button:hover {
+  background-color: #0D254B;
 }

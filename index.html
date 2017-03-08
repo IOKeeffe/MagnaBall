@@ -5,6 +5,8 @@
     <title></title>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
@@ -13,18 +15,25 @@
         <h1>MAGNABALL</h1>
       </div>
       <div class="gameField">
-        <div class="scoreboard">
+        <div class="scoreboard first-player-scoreboard">
           <h2>Red</h2>
           <p id="player-1-score">0</p>
         </div>
         <div id="canvas-container">
-          <div id="title-screen"
+          <div id="title-screen">
             <h2 id="intro-message">Welcome to MagnaBall!</h2>
-            <button id="one-player-button">1 player</button>
-            <button id="two-player-button">2 players</button>
+            <div id="button-div">
+              <button id="one-player-button" class="player-button">1 player</button>
+              <button id="two-player-button" class="player-button">2 players</button>
+            </div>
+            <div id="options-div">
+              <label>Magnet Collision:
+                <input type="checkbox" id="magnet-collision" checked> </input>
+              </label>
+            </div>
           </div>
         </div>
-        <div class="scoreboard">
+        <div class="scoreboard second-player-scoreboard">
             <h2>Blue</h2>
           <p id="player-2-score">0</p>
         </div>
