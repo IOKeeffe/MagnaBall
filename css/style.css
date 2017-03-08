@@ -1,21 +1,29 @@
 .content {
+  align-items: center;
   display:flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: flex-start;
-  align-items: center;
+  width: 100%;
 }
 
 .gameField {
+  align-items: flex-start;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  height: 66.667%;
+  width: 100%;
+}
+
+#canvas-container {
+  height: auto;
+  /*width: calc(66.667% + 40px);*/
 }
 
 #title-screen {
-  height: 720px;
-  width: 1300px;
-
+  height: 100%;
+  width: 100%;
 }
 
 #player-1-score {
@@ -27,13 +35,12 @@
 }
 
 .scoreboard {
-  font-family: 'Bungee Inline', cursive;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /*font-family: fantasy;*/
+  font-family: 'Bungee Inline', cursive;
   font-size: 40px;
-
+  width: 15%;
   p {
   }
 }
@@ -45,7 +52,7 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 5vmin;
   font-family: 'Bungee Inline', cursive;
-  margin-bottom: 0;
+  margin: 0;
 }
