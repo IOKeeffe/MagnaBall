@@ -1,5 +1,5 @@
 #MagnaBall
-[Live] (http://ianokeeffe.co/magnaball)
+[Live] (http://ianokeeffe.co/MagnaBall)
 
 ##Overview
 MagnaBall is a two player physics based game built in JavaScript by Ian O'Keeffe. It incorporates the [EaselJS] (http://www.createjs.com/easeljs) library to aid in animating and drawing the ball, magnets, and field.
