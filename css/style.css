@@ -113,15 +113,14 @@ h1 {
 
 #info-div {
   align-items: flex-start;
-  bottom: 10px;
+  bottom: 1%;
   display: flex;
   flex-direction:column;
   font-family: 'Bungee Inline', cursive;
   font-size: 14px;
   justify-content: center;
-  left: 10px;
+  left: 1%;
   position: absolute;
-
 }
 #links {
   align-items: center;
