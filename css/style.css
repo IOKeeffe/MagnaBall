@@ -115,7 +115,7 @@ h1 {
   align-items: flex-start;
   bottom: 1%;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   font-family: 'Bungee Inline', cursive;
   font-size: 14px;
   justify-content: center;
@@ -131,4 +131,18 @@ h1 {
 }
 #links a {
   margin: 0 12px;
+}
+#options-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#options-div label {
+  margin: 5px 0;
+}
+
+#options-div input {
+  font-family: 'Bungee Inline', cursive;
 }
